@@ -20,10 +20,14 @@
 //}
 
 var x = document.cookie;
+if (document.cookie.split(';').some((item) => item.includes('key=123'))) {
+    console.log('The cookie "key" has "123" for value')
 
-if (x == "key=123") {
-    console.log('nice');
 }
+
+//if (x == "key=123") {
+//    console.log('nice');
+//}
 
 else {
     var word = prompt("Password:");
@@ -31,11 +35,5 @@ else {
     x = document.cookie;
     location.reload();
 }
-
-//    else {
-//        check(value);
-//    }
-
-console.log(x);
 
 
