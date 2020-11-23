@@ -19,16 +19,14 @@ body, html {
     background-color: lightgray;
     padding-left: 2em;
     padding-right: 2em; 
-    height: 4000px;
 }
 
 .bg-image {                                                                     
-    /* background-image: url('/home/ms45/Projects/IA-ITGS/files/pexels-simon-migaj-747964.jpg'); */
     background-image: url('fondo.png');
     background-position: center;                                                
     background-repeat: repeat;
     background-size: 60%; 
-    height: 700%;                                                               
+    height: 900%;                                                               
     filter: blur(5px);                                                          
 }
 
@@ -85,12 +83,21 @@ img.name {
     color: red;
 }
 
+h1.anchor {
+    padding-top: 25px;
+}
+
 .show-on-scroll {
     opacity: 0;
     transform: translateX(-2em);
     transition: transform 0.8s .25s ease-out, 
                 opacity .4s .25s ease-out;
     will-change: transform, opacity;
+}
+
+.show-on-scroll.is-visible {
+    opacity: 1;
+    transform: none;
 }
 
 .topics.show-on-scroll {
@@ -106,11 +113,6 @@ img.name {
     transform: translateX(0);
 }
 
-.show-on-scroll.is-visible {
-    opacity: 1;
-    transform: none;
-}
-
 .diagram {
     display: flex;
     justify-content: center;
@@ -122,8 +124,40 @@ img.name {
     right: 80px;
 }
 
-.diagram li {
+.diagram>ul>li {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 20px;
+}
+
+.diagram>ul>li>a {
+    padding: 0;
+}
+
+p.poema {
+    font-size: 15px;
+    white-space: pre-line;
+    white-space: pre-wrap;
+    position: relative;
+    left: 18%;
+}
+
+.pregunta>p, .plano>p {
+    white-space: pre-line;
+    white-space: pre-wrap;
+    padding-left: 2em;
+    font-size: 20px;
+}
+
+.plano>ul {
+    padding-left: 6em;
+    font-size: 20px;
+}
+
+.plano>ul>li {
+    padding-bottom: 1em;
+}
+
+strong {
+    color: purple;
 }
