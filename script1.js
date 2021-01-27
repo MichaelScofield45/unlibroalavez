@@ -12,7 +12,7 @@ if (document.cookie.split(';').some((item) => item.includes('key=123')))
 
 else 
 {
-    var word = prompt("Password:");
+    let: word = prompt("Password:");
     document.cookie = "key=" + word;
     x = document.cookie;
     location.reload();
