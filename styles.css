@@ -147,6 +147,7 @@ p.poema {
     white-space: pre-line;
     white-space: pre-wrap;
     padding-left: 2em;
+    padding-right: 2em;
     font-size: 20px;
 }
 
@@ -157,6 +158,7 @@ p.poema {
 
 .plano>ul>li {
     padding-bottom: 1em;
+    padding-right: 2em;
 }
 
 strong {
