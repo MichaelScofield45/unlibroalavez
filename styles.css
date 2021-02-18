@@ -145,6 +145,13 @@ h1.anchor {
     padding: 0;
 }
 
+p.copyright {
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 15px;
+    color: gray;
+}
+
 p.poema {
     font-style: italic;
     font-size: 15px;
