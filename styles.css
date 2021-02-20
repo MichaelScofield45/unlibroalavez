@@ -145,14 +145,14 @@ h1.anchor {
     padding: 0;
 }
 
-p.copyright {
+.copyright {
     text-align: center;
     white-space: pre-wrap;
     font-size: 15px;
     color: gray;
 }
 
-p.poema {
+.poema {
     font-style: italic;
     font-size: 15px;
     white-space: pre-line;
