@@ -14,6 +14,17 @@
     .bg-image {
         height: 400%;
     }
+
+    img.evaluacion:hover {
+    	color: #424242; 
+    	-webkit-transition: all .3s ease-in; /* To ensure compatibility with Safari and Chrome web browsers */
+    	-moz-transition: all .3s ease-in;
+    	-o-transition: all .3s ease-in;
+    	transition: all .3s ease-in;
+    	opacity: 1;
+    	transform: scale(1.05);
+    	-webkit-transform: scale(1.05);        
+    }
   </style>
   <body>
     <div class="bg-image"></div> 
@@ -49,7 +60,7 @@
         <h2 class="show-on-scroll">¿Cómo se evalúa la literatura en el IB</h2>
         <p>Si cursas Nivel Superior (NS) probablemente serás evaluado acordando a la siguiente tabla. Con un par de pruebas de evaluación externa y una interna. Si deseas saber exactamente las maneras en las que se evalúa cada prueba, te recomiendo que veas la guía completa que es proporcionada en la siguiente pregunta.
         </p>
-        <img style="display: block; margin: auto; width: 70%;" src="./Resources/evaluacion.png" />
+        <img class="evaluacion" style="display: block; margin: auto; width: 70%;" src="./Resources/evaluacion.png" />
         <br/><br/>
       </div>
 

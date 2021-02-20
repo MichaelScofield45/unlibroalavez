@@ -9,13 +9,13 @@ body, html {
 
 img.ejemplo:hover {
     color: #424242; 
-  -webkit-transition: all .3s ease-in; /* To ensure compatibility with Safari and Chrome web browsers */
-  -moz-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
-  opacity: 1;
-  transform: scale(1.15);
-  -webkit-transform: scale(1.15);
+    -webkit-transition: all .3s ease-in; /* To ensure compatibility with Safari and Chrome web browsers */
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    opacity: 1;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
 }
 
 .content {

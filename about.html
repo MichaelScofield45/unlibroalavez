@@ -6,26 +6,33 @@
     <script src="script1.js" type="text/javascript"></script>
   </head>
   <style>
-    .bg-image 
-    {
+    .bg-image {
       height: 400%;
     }
 
-    h2 
-    {
+    h2 {
       padding-top: 30px;
     }
 
-    img.books 
-    {
+    img.books {
       display: block;
       margin: auto;
       padding-top: 40px;
     }
 
-    html
-    {
-      height: 62%;
+    html {
+        height: 62%;
+    }
+
+    img.imagen:hover {
+        color: #424242; 
+        -webkit-transition: all .3s ease-in; /* To ensure compatibility with Safari and Chrome web browsers */
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+        opacity: 1;
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);        
     }
   </style>
   <body>
@@ -55,7 +62,7 @@
         </p>
       </div>
 
-      <img class="books" src="./Resources/thought-catalog-o0Qqw21-0NI-unsplash.jpg" />
+      <img class="books imagen" src="./Resources/thought-catalog-o0Qqw21-0NI-unsplash.jpg" />
       <p style="color: gray; position: relative; left: 25%;" class="description">Imagen por Thought Catalog en Unsplash.</p>
 
       <div class="events">
@@ -66,7 +73,7 @@
         <ul>
           <li>Liga a la plática: <a href="https://drive.google.com/file/d/1Q_ITNz-Vsv_LIw6jPiLS3PhVRskniOEM/view">https://drive.google.com/file/d/1Q_ITNz-Vsv_LIw6jPiLS3PhVRskniOEM/view</a></li>
         </ul>
-        <img src="./Resources/Flyer_Nabil EM2021.png" style="display: block; padding-top: 20px; padding-bottom: 30px; height: 500px; margin: 0 auto;" />
+        <img class="imagen" src="./Resources/Flyer_Nabil EM2021.png" style="display: block; padding-top: 20px; padding-bottom: 30px; height: 500px; margin: 0 auto;" />
       
     </div>
 
